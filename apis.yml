@@ -1,8 +1,29 @@
 aid: formation
-name: Formation
-description: Formation is a company surfaced as a portfolio company of a16z, felicis and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Formation Bio
+description: >-
+  Formation Bio is an AI-native pharmaceutical company building the pharma company of
+  the future. Rather than applying AI to drug discovery, it focuses on drug development
+  — acquiring and in-licensing clinical-stage drug candidates from pharma companies,
+  universities, and biotech firms, then running them through clinical development far
+  more efficiently than industry standards using its proprietary AI-native platform,
+  data, and fine-tuned models. Led by CEO Benjamine Liu and CTO Linhao Zhang, the company
+  raised a $372M Series D in 2024 led by a16z with participation from Sanofi, Sequoia,
+  Thrive, Emerson Collective, and others, and partners with Sanofi and OpenAI on custom
+  models for the drug development lifecycle. Formation Bio does not currently publish a
+  public developer API; this profile tracks its identity and public web surface.
 url: https://raw.githubusercontent.com/api-evangelist/formation/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.sanity.io/images/1oav6d5s/production/682b89b26ef34fc9cc89ca7c30f1044d429dab58-5542x8312.jpg?w=1200&h=630&fit=crop&auto=format
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,9 +33,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Pharmaceutical
+- Drug Development
+- Artificial Intelligence
+- Biotechnology
+- Healthcare
+- Clinical Trials
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +49,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/formation-domain-security.yml
 - type: Website
   url: https://formation.bio
+- type: Blog
+  url: https://formation.bio/blog
+- type: PrivacyPolicy
+  url: https://formation.bio/documents/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
